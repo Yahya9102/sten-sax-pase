@@ -33,8 +33,8 @@ jobs:
       - name: Login to Docker Hub
         uses: docker/login-action@v3
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          username: yahyasystementor
+          password: dckr_pat_F9hGKNjYjZNorPiUigUy_aHvh-E
 
       - name: Build and push
         uses: docker/build-push-action@v6
@@ -51,4 +51,3 @@ jobs:
           echo "yahyasystementor/sten-sax-pase:latest"
           echo "yahyasystementor/sten-sax-pase:${{ github.sha }}"
 
-          
