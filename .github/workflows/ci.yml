@@ -50,3 +50,5 @@ jobs:
           echo "Pushed:"
           echo "yahyasystementor/sten-sax-pase:latest"
           echo "yahyasystementor/sten-sax-pase:${{ github.sha }}"
+
+          
