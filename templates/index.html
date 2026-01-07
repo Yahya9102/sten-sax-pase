@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sten Sax Påse</title>
+</head>
+<body>
+    <h1>Sten, Sax, Påse</h1>
+
+    <p>
+        Totalt spelade: <strong>{{stats.total}}</strong><br />
+        Vinster: <strong>{{stats.wins}}</strong><br/>
+        Vinstprocent: <strong>{{stats.win_percentage}}%</strong>
+    </p>
+
+    <form method="post" action="/play">
+        <button type="submit" name="choice" value="sten">Sten</button>
+        <button type="submit" name="choice" value="sax">Sax</button>
+        <button type="submit" name="choice" value="påse">Påse</button>
+    </form>
+</body>
+</html>
