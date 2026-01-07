@@ -13,6 +13,8 @@ def get_server_connection():
         password=DB_PASSWORD
     )
 
+# Hej
+
 
 def get_connection():
 
