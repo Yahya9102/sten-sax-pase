@@ -46,7 +46,7 @@ spec:
                   name: mysql-secret
                   key: MYSQL_ROOT_PASSWORD
             - name: MYSQL_DATABASE
-              values: sten_sax_pase
+              value: sten_sax_pase
           volumeMounts:
             - name: mysql-data
               mountPath: /var/lib/mysql
